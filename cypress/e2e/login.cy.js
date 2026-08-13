@@ -13,6 +13,7 @@ describe('Login', () => {
 
     // Assert
     cy.contains('h4', 'Realizar Transferência').should('be.visible')
+    cy.screenshot('apos-clicar-em-entrar')
   })
 
     it('Login com dados inválidos deve apresentar mensagem de erro', () => {
@@ -21,6 +22,7 @@ describe('Login', () => {
 
     // Assert
     cy.verificarMensagemNoToast('Erro no login. Tente novamente.')
+    cy.screenshot('apos-clicar-em-entrar')
   })
 
 })

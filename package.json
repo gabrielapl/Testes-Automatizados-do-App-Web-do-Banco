@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/gabrielapl/Testes-Automatizados-do-App-Web-do-Banco#readme",
   "devDependencies": {
-    "cypress": "^15.20.1"
+    "cypress": "^15.20.1",
+    "cypress-mochawesome-reporter": "^5.0.0"
   }
 }

@@ -7,6 +7,7 @@ describe('Transferencias', () => {
     it('Deve transferir quando informo dados e valor validos', () => {
         // Act
         cy.realizarTransferencia('Ana Pereira', 'Fernanda', '11')
+
         //Assert
         cy.verificarMensagemNoToast('Transferência realizada!')
     })
